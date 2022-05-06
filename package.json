@@ -1,0 +1,13 @@
+{
+  "name": "recode",
+  "version": "0.1.0",
+  "description": "Record and Replay Code",
+  "workspaces": ["packages/*"],
+  "repository": "",
+  "author": "shubham567 <shubhamshekhar567@gmail.com>",
+  "private": true,
+  "scripts": {
+    "run-ui-dev": "cd packages/recode-ui && yarn dev",
+    "start": "cd packages/recode-apis && yarn start"
+  }
+}
